@@ -1,0 +1,64 @@
+.footer {
+    padding-top: 70px !important;
+    padding-bottom: 30px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important; /* Center content horizontally */
+    text-align: center !important; /* Center text content */
+}
+
+.footer .logo img {
+    width: 50% !important;
+    margin-bottom: 1rem !important;
+}
+
+.footer .logo p {
+    color: var(--text-color) !important;
+}
+
+.social__links {
+    display: flex !important;
+    align-items: center !important;
+    gap: 4px !important;
+    justify-content: center !important;
+}
+
+.social__links span a {
+    text-decoration: none !important;
+    color: var(--heading-color) !important;
+    font-size: 1.2rem !important;
+}
+
+.footer__link-title {
+    color: var(--heading-color) !important;
+    margin-bottom: 1rem !important;
+}
+
+.footer__quick-links li a {
+    text-decoration: none !important;
+    color: var(--text-color) !important;
+    font-size: 1.1rem !important;
+}
+
+.footer__quick-links h6 span i {
+    color: var(--secondary-color) !important;
+    font-size: 1.1rem !important;
+}
+
+.contact-info {
+    text-align: center !important; /* Center contact information */
+}
+
+.contact-info h6 {
+    margin: 0 !important;
+}
+
+.contact-info p {
+    margin: 0 !important;
+}
+
+.copyright {
+    color: var(--text-color) !important;
+    font-size: 1rem !important;
+    margin-top: 1rem !important; /* Add margin at the top for better spacing */
+}
