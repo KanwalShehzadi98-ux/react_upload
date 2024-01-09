@@ -1,0 +1,22 @@
+/* Updated CSS for MasonryImagesGallery */
+
+.masonry__img {
+    transition: 0.3s;
+    max-width: 100%; /* Ensure images don't exceed their container width */
+    max-height: 400px; /* Set a specific max-height value for smaller screens */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin: 0 auto; /* Center the images horizontally */
+}
+
+@media only screen and (max-width: 768px) {
+    .masonry__img {
+        max-height: 300px; /* Adjust max-height for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .masonry__img {
+        max-height: 300px; /* Further adjust max-height for even smaller screens if needed */
+    }
+}
